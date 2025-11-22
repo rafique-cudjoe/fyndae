@@ -18,7 +18,11 @@ export default function Testimonials() {
         <div className="flex flex-col gap-5 mt-12">
           <div className="flex flex-col lg:flex-row items-start gap-5">
             <div className="w-full lg:w-[353px] h-[393px] rounded-[20px] bg-gradient-to-br from-[#117465] to-[#117465] flex items-center justify-center relative overflow-hidden">
-              <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "url('https://api.builder.io/api/v1/image/assets/TEMP/2f0c2e434a5e1d8fcf4ed507aa5921e57385e8a5?width=706')", backgroundSize: "cover", backgroundPosition: "center" }}></div>
+              <img 
+                src="/images/lerato-testimonial.png" 
+                alt="Lerato D testimonial video"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
               <button className="flex items-center justify-center w-[52px] h-[52px] rounded-full bg-white hover:bg-gray-100 transition-colors relative z-10">
                 <Play className="w-7 h-7 text-[#117465] fill-[#117465] ml-1" />
               </button>

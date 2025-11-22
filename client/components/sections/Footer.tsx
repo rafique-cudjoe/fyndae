@@ -19,19 +19,19 @@ export default function Footer() {
 
             <div className="flex items-center gap-5">
               <a href="#" className="hover:opacity-70 transition-opacity">
-                <Facebook className="w-3 h-5 text-[#0A463D] fill-[#0A463D]" />
+                <Facebook className="w-6 h-6 text-[#0A463D] fill-[#0A463D]" />
               </a>
               <a href="#" className="hover:opacity-70 transition-opacity">
-                <Twitter className="w-5 h-4 text-[#0A463D] fill-[#0A463D]" />
+                <Twitter className="w-6 h-6 text-[#0A463D] fill-[#0A463D]" />
               </a>
               <a href="#" className="hover:opacity-70 transition-opacity">
-                <Instagram className="w-5 h-5 text-[#0A463D] fill-[#0A463D]" />
+                <Instagram className="w-6 h-6 text-[#0A463D]" strokeWidth={1.5} />
               </a>
               <a href="#" className="hover:opacity-70 transition-opacity">
-                <Linkedin className="w-5 h-5 text-[#0A463D] fill-[#0A463D]" />
+                <Linkedin className="w-6 h-6 text-[#0A463D] fill-[#0A463D]" />
               </a>
               <a href="#" className="hover:opacity-70 transition-opacity">
-                <Youtube className="w-5 h-4 text-[#0A463D] fill-[#0A463D]" />
+                <Youtube className="w-6 h-6 text-[#0A463D] fill-[#0A463D]" />
               </a>
             </div>
           </div>

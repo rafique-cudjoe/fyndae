@@ -11,19 +11,19 @@ export default function FAQ() {
     },
     {
       question: "How do I share a tip?",
-      answer: ""
+      answer: "If you have information about a lost item, click on the specific report and use the 'Share a Tip' button. Provide any relevant details or evidence you have. Once your tip leads to a successful recovery, you'll be eligible to claim the reward offered by the item owner."
     },
     {
       question: "Do I need to pay to use Fyndae?",
-      answer: ""
+      answer: "Basic features like browsing reports and sharing tips are free. However, if you're reporting a lost item, you'll need to set a reward amount for the community. Our verification lookup system also requires a small fee to access detailed background checks on individuals and organizations."
     },
     {
       question: "How do I get rewarded?",
-      answer: ""
+      answer: "When your tip or information leads to the successful recovery of a lost item, the item owner will mark your contribution as helpful. You can then claim your reward through our secure payment system. Rewards are processed within 24-48 hours after verification."
     },
     {
       question: "What kind of items can I report?",
-      answer: ""
+      answer: "You can report various lost items including personal belongings (phones, wallets, keys, jewelry), documents (IDs, passports, certificates), electronics, bags, and other valuables. We recommend including clear photos and detailed descriptions to increase the chances of recovery."
     }
   ];
 
