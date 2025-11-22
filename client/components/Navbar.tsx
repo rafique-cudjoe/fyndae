@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="w-full px-4 sm:px-6 py-3 bg-white shadow-sm">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between gap-8">
-        <Link to="/" className="flex-shrink-0">
+        <Link to="/" className="flex-shrink-0 flex items-center">
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/f8f9fbdfa907c4f71c7b4696f0efe937b95cf67b?width=180"
             alt="Fyndae Logo"
@@ -17,39 +17,39 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-8 flex-1 justify-center">
+        <div className="hidden md:flex items-center gap-8 flex-1 justify-center h-full">
           <Link
             to="/"
-            className="text-gray-800 font-medium text-base leading-[150%] hover:text-green-600 transition-colors"
+            className="text-gray-800 font-medium text-base hover:text-green-600 transition-colors flex items-center h-full"
           >
             Home
           </Link>
           <Link
             to="/features"
-            className="text-gray-800 font-medium text-base leading-[150%] hover:text-green-600 transition-colors"
+            className="text-gray-800 font-medium text-base hover:text-green-600 transition-colors flex items-center h-full"
           >
             Features
           </Link>
           <Link
             to="/about"
-            className="text-gray-800 font-medium text-base leading-[150%] hover:text-green-600 transition-colors"
+            className="text-gray-800 font-medium text-base hover:text-green-600 transition-colors flex items-center h-full"
           >
             About Us
           </Link>
           <Link
             to="/contact"
-            className="text-gray-800 font-medium text-base leading-[150%] hover:text-green-600 transition-colors"
+            className="text-gray-800 font-medium text-base hover:text-green-600 transition-colors flex items-center h-full"
           >
             Contact
           </Link>
         </div>
 
         {/* Desktop Actions */}
-        <div className="hidden md:flex items-center gap-4 flex-shrink-0">
-          <button className="hidden lg:flex px-6 py-2.5 items-center gap-2 rounded-lg border border-gray-300 bg-white text-gray-800 font-medium text-base leading-[150%] hover:bg-gray-50 transition-colors whitespace-nowrap">
+        <div className="hidden md:flex items-center gap-4 flex-shrink-0 h-full">
+          <button className="hidden lg:flex px-6 py-2.5 items-center gap-2 rounded-lg border border-gray-300 bg-white text-gray-800 font-medium text-base hover:bg-gray-50 transition-colors whitespace-nowrap h-full">
             Search Database
           </button>
-          <button className="flex px-4 lg:px-6 py-2.5 items-center gap-2 rounded-lg bg-green-70 text-white font-medium text-sm lg:text-base leading-[150%] hover:bg-green-70/90 transition-colors whitespace-nowrap">
+          <button className="flex px-4 lg:px-6 py-2.5 items-center gap-2 rounded-lg bg-green-70 text-white font-medium text-sm lg:text-base hover:bg-green-70/90 transition-colors whitespace-nowrap h-full">
             Register / Login
           </button>
         </div>
