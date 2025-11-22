@@ -2,8 +2,10 @@ import { Facebook, Twitter, Instagram, Linkedin, Youtube, Mail, Phone, MapPin } 
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-white rounded-3xl">
-      <div className="max-w-7xl mx-auto px-6 md:px-20 py-16">
+    <footer className="w-full bg-white py-16">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+        <div className="px-6 md:px-20 py-16">
+          <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-start gap-8 lg:gap-8">
           <div className="lg:w-[330px] flex flex-col gap-8">
             <div className="flex flex-col gap-2">
@@ -98,6 +100,8 @@ export default function Footer() {
             <a href="#" className="text-[#117465] hover:underline"> Privacy Policy</a>
           </p>
         </div>
+        </div>
+      </div>
       </div>
     </footer>
   );

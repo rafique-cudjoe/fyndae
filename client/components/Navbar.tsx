@@ -6,8 +6,8 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full mx-auto my-6 px-4 sm:px-6 py-6 rounded-3xl border-b border-[#F1F1F3] bg-white">
-      <div className="flex items-center justify-between">
+    <nav className="w-full mx-auto my-6 px-4 sm:px-6 py-4 rounded-3xl border-b border-[#F1F1F3] bg-white">
+      <div className="max-w-[1440px] mx-auto flex items-center justify-between gap-8">
         <Link to="/" className="flex-shrink-0">
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/f8f9fbdfa907c4f71c7b4696f0efe937b95cf67b?width=180"
@@ -17,7 +17,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex items-center gap-8">
+        <div className="hidden md:flex items-center gap-8 flex-1 justify-center">
           <Link
             to="/"
             className="text-grey-15 font-medium text-base leading-[150%] hover:opacity-80 transition-opacity"
@@ -45,11 +45,11 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Actions */}
-        <div className="hidden md:flex items-center gap-4">
-          <button className="hidden lg:flex px-6 py-3 items-center gap-2 rounded-lg border-[0.5px] border-gray-40 bg-[#F7F7F8] text-dark-90 font-medium text-base leading-[150%] hover:bg-gray-50 transition-colors">
+        <div className="hidden md:flex items-center gap-4 flex-shrink-0">
+          <button className="hidden lg:flex px-6 py-3 items-center gap-2 rounded-lg border-[0.5px] border-gray-40 bg-[#F7F7F8] text-dark-90 font-medium text-base leading-[150%] hover:bg-gray-50 transition-colors whitespace-nowrap">
             Search Database
           </button>
-          <button className="flex px-4 lg:px-6 py-3 items-center gap-2 rounded-lg bg-green-70 text-white font-medium text-sm lg:text-base leading-[150%] hover:bg-green-70/90 transition-colors">
+          <button className="flex px-4 lg:px-6 py-3 items-center gap-2 rounded-lg bg-green-70 text-white font-medium text-sm lg:text-base leading-[150%] hover:bg-green-70/90 transition-colors whitespace-nowrap">
             Register / Login
           </button>
         </div>

@@ -3,11 +3,13 @@ import { Button } from "@/components/ui/button";
 
 export default function VerificationSystem() {
   return (
-    <section className="w-full px-6 md:px-20 py-16 md:py-20 bg-white rounded-3xl">
-      <div className="max-w-7xl mx-auto">
+    <section className="w-full bg-white py-16 md:py-20">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+        <div className="px-6 md:px-20 py-16 md:py-20">
+          <div className="max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-12">
           <div className="flex-1 flex flex-col gap-10">
-            <div className="flex flex-col gap-5">
+            <div className="flex flex-col gap-5 text-center">
               <h2 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-[#0A0814]">
                 Our Verification System
               </h2>
@@ -53,6 +55,8 @@ export default function VerificationSystem() {
           >
             Search Database
           </Button>
+        </div>
+          </div>
         </div>
       </div>
     </section>

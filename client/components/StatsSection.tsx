@@ -1,9 +1,11 @@
 export default function StatsSection() {
   return (
-    <div className="bg-white rounded-3xl p-8 md:p-16 lg:p-20">
-      <div className="max-w-[1232px] mx-auto">
-        <div className="flex flex-col items-center gap-10 mb-12">
-          <div className="flex flex-col items-center gap-4 text-center">
+    <section className="w-full bg-white py-8 md:py-16 lg:py-20">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+        <div className="px-6 md:px-20">
+          <div className="max-w-[1232px] mx-auto">
+            <div className="flex flex-col items-center gap-10 mb-12">
+              <div className="flex flex-col items-center gap-4 text-center">
             <h2 className="text-3xl md:text-4xl lg:text-[36px] font-semibold leading-[140%] tracking-[-0.056em]">
               In a remarkably short period,{" "}
               <span className="text-green-70">Fyndae</span> has connected
@@ -78,6 +80,8 @@ export default function StatsSection() {
           </div>
         </div>
       </div>
-    </div>
+        </div>
+      </div>
+    </section>
   );
 }

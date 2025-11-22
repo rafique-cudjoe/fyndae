@@ -1,10 +1,12 @@
 export default function FeaturesSection() {
   return (
-    <div className="bg-white rounded-3xl p-8 md:p-16 lg:p-20">
-      <div className="max-w-[1232px] mx-auto space-y-16">
-        {/* Header */}
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <div className="space-y-5 flex-1">
+    <section className="w-full bg-white py-8 md:py-16 lg:py-20">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+        <div className="px-6 md:px-20">
+          <div className="max-w-[1232px] mx-auto space-y-16">
+            {/* Header */}
+            <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+          <div className="space-y-5 flex-1 text-center md:text-left">
             <h2 className="text-4xl md:text-5xl font-semibold leading-[140%] tracking-[-0.042em] text-[#0A0814]">
               Features That Make <span className="text-green-70">Fyndae</span>{" "}
               Stand Out
@@ -869,7 +871,9 @@ export default function FeaturesSection() {
             </div>
           </div>
         </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

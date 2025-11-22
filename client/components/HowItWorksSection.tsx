@@ -37,9 +37,11 @@ export default function HowItWorksSection() {
   ];
 
   return (
-    <div className="bg-green-70 rounded-3xl p-8 md:p-16 lg:p-20">
-      <div className="max-w-[1232px] mx-auto flex flex-col items-center gap-10">
-        <div className="text-center space-y-5">
+    <section className="w-full bg-green-70 py-8 md:py-16 lg:py-20">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+        <div className="px-6 md:px-20">
+          <div className="max-w-[1232px] mx-auto flex flex-col items-center gap-10">
+            <div className="text-center space-y-5">
           <h2 className="text-4xl md:text-5xl font-semibold leading-[140%] tracking-[-0.042em]">
             <span className="text-white">How It </span>
             <span className="text-[#E5FDC5]">Works</span>
@@ -103,7 +105,9 @@ export default function HowItWorksSection() {
         <button className="px-6 py-3 rounded-lg border border-gray-40 bg-[#F7F7F8] text-gray-100 font-medium text-lg leading-[150%] hover:bg-gray-50 transition-colors">
           Get Started
         </button>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

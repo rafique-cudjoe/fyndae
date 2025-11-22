@@ -11,9 +11,10 @@ import Footer from "@/components/sections/Footer";
 
 export default function Index() {
   return (
-    <div className="min-h-screen bg-[#F5F5F5]">
+    <div className="min-h-screen">
       {/* Top Part - Hero Section */}
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6">
+      <div className="w-full bg-white">
+        <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-4 sm:py-6">
         <div className="flex flex-col lg:flex-row items-stretch gap-4 sm:gap-6">
           <div className="flex-1 bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 md:p-12 lg:p-16 flex flex-col justify-center">
             <div className="max-w-[640px]">
@@ -89,22 +90,22 @@ export default function Index() {
           </div>
         </div>
 
-        {/* Top Part - Sections */}
-        <StatsSection />
-        <HowItWorksSection />
-        <FeaturesSection />
+        </div>
       </div>
 
+      {/* Top Part - Sections */}
+      <StatsSection />
+      <HowItWorksSection />
+      <FeaturesSection />
+
       {/* Down Part - Sections */}
-      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 py-6 sm:py-8 md:py-12 space-y-6 sm:space-y-8">
-        <VerificationSystem />
-        <FeaturedPosts />
-        <Testimonials />
-        <JoinCommunity />
-        <FAQ />
-        <CTASection />
-        <Footer />
-      </div>
+      <VerificationSystem />
+      <FeaturedPosts />
+      <Testimonials />
+      <JoinCommunity />
+      <FAQ />
+      <CTASection />
+      <Footer />
     </div>
   );
 }

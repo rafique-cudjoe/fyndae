@@ -3,8 +3,10 @@ import { Button } from "@/components/ui/button";
 
 export default function JoinCommunity() {
   return (
-    <section className="w-full px-6 md:px-20 py-16 md:py-20 bg-[#117465] rounded-3xl">
-      <div className="max-w-7xl mx-auto flex flex-col gap-15">
+    <section className="w-full bg-[#117465] py-16 md:py-20">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+        <div className="px-6 md:px-20 py-16 md:py-20">
+          <div className="max-w-7xl mx-auto flex flex-col gap-15">
         <div className="flex flex-col items-center justify-center gap-5 text-center">
           <h2 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight">
             <span className="text-white">Become Part of Our </span>
@@ -40,6 +42,8 @@ export default function JoinCommunity() {
           <Button className="bg-[#F7F7F8] hover:bg-white text-[#0D0B1A] border border-[#B7BECD] px-6 py-3 text-lg font-medium rounded-lg">
             Join Our Community
           </Button>
+        </div>
+          </div>
         </div>
       </div>
     </section>

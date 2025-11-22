@@ -4,10 +4,12 @@ import { cn } from "@/lib/utils";
 
 export default function FeaturedPosts() {
   return (
-    <section className="w-full px-6 md:px-20 py-16 md:py-20 bg-white rounded-3xl">
-      <div className="max-w-7xl mx-auto flex flex-col gap-15">
+    <section className="w-full bg-white py-16 md:py-20">
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6">
+        <div className="px-6 md:px-20 py-16 md:py-20">
+          <div className="max-w-7xl mx-auto flex flex-col gap-15">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
-          <div className="flex-1">
+          <div className="flex-1 text-center md:text-left">
             <h2 className="text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-[#0A0814] mb-5">
               Featured Posts
             </h2>
@@ -67,6 +69,8 @@ export default function FeaturedPosts() {
           <button className="flex items-center justify-center w-11 h-11 rounded-full bg-[#0A463D] hover:bg-[#117465] transition-colors">
             <ChevronRight className="w-8 h-8 text-white" />
           </button>
+        </div>
+          </div>
         </div>
       </div>
     </section>
